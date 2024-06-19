@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Clash;
+    src: url(../fonts/clash.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Clash;
+    text-decoration: none;
+}
+
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav h1{
+    font-weight: 400;
+}
+
+header nav div{
+    display: flex;
+    gap: 20px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.navBar a{
+    color: black;
+}
+
+.furniture{
+    display: flex;
+    height: 80vh;
+    margin-top: 30px;
+}
+
+.furniture .left{
+    display: flex;
+    flex-direction: column;
+    background-color: #2a254b;
+    color: white;
+    width: 70%;
+    padding: 30px;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.furniture .left .heading{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+
+.furniture .left h2{
+    font-weight: 400;
+    width: 50%;
+}
+.furniture .left .view{
+    background-color: rgba(255, 255, 255, 0.205);
+    width: fit-content;
+    padding: 15px;
+}
+
+
+
+.furniture .right{
+    height: 100%;
+    width: 30%;
+}
+
+.furniture .right img{
+    width: 100%;
+    height: 100%;
+}
